@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-{{ partial "head" . }}
-</head>
-<body>
-  <h2>List page!</h2>
-  <h3>Pages include:</h3>
-  <ul>
-  {{ range .Pages }}
-	  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-  {{ end }}
-  </ul>
-  <p><b>And away we go with the content!</b></p>
-  {{ .Content }}
-  
-  {{ partial "footer" . }}
-</body>
+	<head>
+		{{ partial "head" . }}
+		{{- partial "title.html" . -}}
+	</head>
+	<body>
+  		{{ partial "header" . }}
+		<h2>List page!</h2>
+		<h3>Pages include:</h3>
+		<ul>
+			{{ range .Pages }}
+				<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+			{{ end }}
+		</ul>
+
+		<p><b>And away we go with the content!</b></p>
+		{{ .Content }}
+
+		{{ partial "footer" . }}
+	</body>
 </html>
