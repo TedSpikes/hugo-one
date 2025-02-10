@@ -7,13 +7,6 @@
 <body>
   {{ partial "header" . }}
   
-  <h3>Sections include:</h3>
-  <ul>
-  {{ range .Pages }}
-	  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-  {{ end }}
-  </ul>
-  <p><b>And away we go with the content!</b></p>
   {{ .Content }}
   
   {{ partial "footer" . }}

@@ -3,4 +3,6 @@ title: aaaaaaahhh!
 type: homepage
 ---
 
-It is so late
+# Hello!
+
+My name is Ted.

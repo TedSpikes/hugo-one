@@ -1,5 +1,5 @@
 ---
-title: Bleh
+title: Photos
 type: section
 ---
 

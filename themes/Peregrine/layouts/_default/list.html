@@ -6,16 +6,13 @@
 	</head>
 	<body>
   		{{ partial "header" . }}
-		<h2>List page!</h2>
-		<h3>Pages include:</h3>
-		<ul>
-			{{ range .Pages }}
-				<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-			{{ end }}
-		</ul>
-
-		<p><b>And away we go with the content!</b></p>
 		{{ .Content }}
+		
+		{{ range .Pages }}
+			<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+			{{ .Content }}
+			<hr>
+		{{ end }}
 
 		{{ partial "footer" . }}
 	</body>
