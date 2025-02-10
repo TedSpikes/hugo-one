@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aaaaaaahhh! on Ted Spikes</title>
+    <link>http://example.org/</link>
+    <description>Recent content in aaaaaaahhh! on Ted Spikes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Feb 2021 21:01:50 +0200</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>http://example.org/posts/first/</link>
+      <pubDate>Sun, 21 Feb 2021 21:01:50 +0200</pubDate>
+      
+      <guid>http://example.org/posts/first/</guid>
+      <description>A man has to have goals — for a day, for a lifetime — and that was mine, to have people say, &amp;ldquo;There goes Ted Williams, the greatest hitter who ever lived.&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://example.org/camera/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/camera/privacy/</guid>
+      <description>Privacy Policy Theodore Kostylev built the Color Perception Camera app as an Open Source app. This SERVICE is provided by Theodore Kostylev at no cost and is intended for use as is.
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy.</description>
+    </item>
+    
+  </channel>
+</rss>
