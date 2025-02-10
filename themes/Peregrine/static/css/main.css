@@ -5,19 +5,30 @@
 	border-style: solid;
 } */
 
+/* Site-wide */
 body {
-	margin: 40px
-	auto;
-	max-width: 650px;
+	margin: 40px auto;
+	max-width: 900px;
 	line-height: 1.6;
 	font-size: 18px;
 	color: #454545;
-	padding: 0
-	10px
+	padding: 0 10px
 }
 
 h1, h2, h3 {
 	line-height: 1.2
+}
+
+a {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-color: lawngreen;
+	border: 0;
+	box-shadow: none;
+}
+
+a:hover {
+	color: lawngreen;
 }
 
 .flex-container {
@@ -28,14 +39,32 @@ h1, h2, h3 {
 	margin: 0;
 }
 
+/* Header */
+
 #header-container {
 	justify-content: space-between;
+	color: #999999;
+	margin-bottom: 30px;
+	transition: all .25s ease;
 }
 
-#header-things {
+#header-container:hover {
+	color: inherit;
+}
+
+#header-column {
 	flex-flow: column;
+	justify-content: center;
 }
 
 #header-menu {
 	text-align: right;
+}
+
+#header-title {
+	font-size: 30px;
+}
+	
+#header-title a {
+	text-decoration: none;
 }
