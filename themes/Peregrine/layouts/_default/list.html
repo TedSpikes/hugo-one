@@ -8,10 +8,14 @@
   		{{ partial "header" . }}
 		{{ .Content }}
 		
-		{{ range .Pages }}
-			<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-			{{ .Content }}
-			<hr>
+		{{ range .Pages.Reverse }}
+		<article>
+			<div>
+				<h2><a href="{{ .RelPermalink }}"> {{ .Title }} </a></h2>
+				{{ .Summary }}
+			</div>
+		</article>
+		<hr>
 		{{ end }}
 
 		{{ partial "footer" . }}
