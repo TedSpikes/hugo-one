@@ -1,0 +1,1 @@
+All content and `hugo` stuff for [tedspikes.com](https://tedspikes.com)
